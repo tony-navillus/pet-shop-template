@@ -1,0 +1,29 @@
+{
+  "site": {
+    "title": "Sapper project template"
+  },
+  "navigation": {
+    "about": "about",
+    "blog": "blog",
+    "home": "home"
+  },
+  "pages": {
+    "about": {
+      "title": "About",
+      "about_site": "About this site",
+      "this_is_about": "This is the 'about' page. There's not much here."
+    },
+    "blog": {
+      "title": "Blog",
+      "recent_posts": "Recent posts"
+    },
+    "home": {
+      "great_success": "GREAT SUCCESS!",
+      "high_five": "HIGH FIVE!",
+      "try_editing": "Try editing this file (src/routes/index.svelte) to test live reloading."
+    }
+  },
+  "images": {
+    "great-success.png": "Borat"
+  }
+}
