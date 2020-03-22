@@ -38,7 +38,8 @@
 <Tailwind />
 
 <aside
-  class="lg:hidden h-screen w-64 fixed top-0 right-0 flex flex-col py-3 px-5 lg:invisible { menuOpen ? '' : 'invisible' }">
+  class="lg:hidden h-screen w-64 fixed top-0 right-0 flex flex-col py-3 px-5
+  lg:invisible {menuOpen ? '' : 'invisible'}">
   <div class="flex items-center pb-4 pt-2 mb-4 border-b border-foreground-alt">
     <Logo />
   </div>
@@ -91,8 +92,8 @@
 </aside>
 
 <div
-  class="relative bg-background transform lg:transform-none transition lg:transition-none
-  transition-transform duration-300 {menuOpen ? 'shadow-2xl -translate-x-64' : ''}">
+  class="relative bg-background transform lg:transform-none transition
+  lg:transition-none transition-transform duration-300 {menuOpen ? 'shadow-2xl -translate-x-64' : ''}">
   <Header on:menu={toggleMenu} />
 
   <main class="-mt-16">
@@ -102,6 +103,8 @@
   <Footer />
 
   {#if menuOpen}
-  <div class='absolute top-0 bottom-0 left-0 right-0 z-50' on:click={closeMenu}></div>
+    <div
+      class="absolute top-0 bottom-0 left-0 right-0 z-50"
+      on:click={closeMenu} />
   {/if}
 </div>
