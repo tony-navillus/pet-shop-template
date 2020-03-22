@@ -1,8 +1,13 @@
 <script>
+  import { createEventDispatcher } from 'svelte'
   import { _ } from 'svelte-i18n'
   import Icon from './Icon.svelte'
   import Logo from './Logo.svelte'
   import PageSection from './PageSection.svelte'
+
+  const dispatch = createEventDispatcher()
+
+  const onMenu = () => dispatch('menu')
 
   let scrollY = 0
   let height = 0
@@ -30,12 +35,13 @@
 
 <header
   bind:offsetHeight={height}
-  class="fixed top-0 left-0 right-0 z-50 transition transition-colors
-  duration-150"
+  class="sticky top-0 z-50 transition transition-colors duration-150"
   class:solid>
   <PageSection>
-    <div class="flex flex-row py-5 items-center">
-      <Logo />
+    <div class="flex flex-row h-16 items-center">
+      <div class='flex-1 lg:flex-none'>
+        <Logo />
+      </div>
 
       <nav class="hidden lg:block ml-8 xl:ml-12 flex-1">
         <ul>
@@ -82,9 +88,13 @@
         </li>
       </ul>
 
-      <button class="hidden lg:flex flex-row items-center">
+      <button class="flex flex-row items-center">
         <Icon icon="world" class="text-2xl m-2" />
         <span>{$_('site.locale')}</span>
+      </button>
+
+      <button class="flex lg:hidden flex-row items-center ml-4" on:click={onMenu}>
+        <Icon icon="menu" class="text-2xl m-2" />
       </button>
     </div>
   </PageSection>
