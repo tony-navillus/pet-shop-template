@@ -1,29 +1,52 @@
 {
   "site": {
-    "title": "Sapper project template"
+    "title": "Pet Shop",
+    "locale": "EN"
   },
   "navigation": {
-    "about": "about",
-    "blog": "blog",
-    "home": "home"
+    "what_we_sell": "What We Sell",
+    "our_services": "Our Services",
+    "meet_our_family": "Meet Our Family",
+    "privacy_policy": "Privacy Policy",
+    "terms_and_conditions": "Terms & Conditions",
+    "location": "location",
+    "phone": "call us",
+    "email": "email us",
+    "facebook": "find us on facebook",
+    "language": "current language"
   },
-  "pages": {
-    "about": {
-      "title": "About",
-      "about_site": "About this site",
-      "this_is_about": "This is the 'about' page. There's not much here."
+  "hero": {
+    "title": "Caring for your Furry Friends",
+    "subtitle": "Benoordenhout's Favorite Pet Shop"
+  },
+  "what_we_sell": {
+    "title": "What We Sell",
+    "subtitle": "All Your Favorite Brands"
+  },
+  "our_services": {
+    "title": "Our Services",
+    "pet_supplies": {
+      "title": "Pet Supplies",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum nisi, ultricies blandit suscipit sed adipiscing faucibus iaculis felis. Risus, integer mi congue nisi, habitasse scelerisque duis orci."
     },
-    "blog": {
-      "title": "Blog",
-      "recent_posts": "Recent posts"
+    "local_delivery": {
+      "title": "Local Delivery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum nisi, ultricies blandit suscipit sed adipiscing faucibus iaculis felis. Risus, integer mi congue nisi, habitasse scelerisque duis orci."
+    }
+  },
+  "meet_our_family": {
+    "title": "Meet Our Family",
+    "gidget": {
+      "title": "Gidget",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum nisi, ultricies blandit suscipit sed adipiscing faucibus iaculis felis."
     },
-    "home": {
-      "great_success": "GREAT SUCCESS!",
-      "high_five": "HIGH FIVE!",
-      "try_editing": "Try editing this file (src/routes/index.svelte) to test live reloading."
+    "john": {
+      "title": "John",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum nisi, ultricies blandit suscipit sed adipiscing faucibus iaculis felis."
     }
   },
   "images": {
-    "great-success.png": "Borat"
+    "cat.jpg": "cat",
+    "team.jpg": "our family"
   }
 }
