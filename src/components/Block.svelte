@@ -1,6 +1,7 @@
 <script>
   import PageSection from './PageSection.svelte'
 
+  export let id
   export let title
   export let subtitle
 </script>
@@ -17,7 +18,7 @@
   }
 </style>
 
-<PageSection>
+<PageSection {id}>
   <article class="mt-20 md:mt-32">
     {#if title}
       <h3

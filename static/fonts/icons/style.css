@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot?u3ov6a');
-  src:  url('icomoon.eot?u3ov6a#iefix') format('embedded-opentype'),
+  src: url('icomoon.eot?u3ov6a');
+  src: url('icomoon.eot?u3ov6a#iefix') format('embedded-opentype'),
     url('icomoon.ttf?u3ov6a') format('truetype'),
     url('icomoon.woff?u3ov6a') format('woff'),
     url('icomoon.svg?u3ov6a#icomoon') format('svg');
@@ -10,7 +10,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^='icon-'],
+[class*=' icon-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -26,32 +27,32 @@
 }
 
 .icon-arrow-down:before {
-  content: "\e900";
+  content: '\e900';
 }
 .icon-cat:before {
-  content: "\e901";
+  content: '\e901';
 }
 .icon-delivery-truck:before {
-  content: "\e902";
+  content: '\e902';
 }
 .icon-dog-food-bowl:before {
-  content: "\e903";
+  content: '\e903';
 }
 .icon-email:before {
-  content: "\e904";
+  content: '\e904';
 }
 .icon-facebook:before {
-  content: "\e905";
+  content: '\e905';
 }
 .icon-location-pin:before {
-  content: "\e906";
+  content: '\e906';
 }
 .icon-menu:before {
-  content: "\e907";
+  content: '\e907';
 }
 .icon-phone:before {
-  content: "\e908";
+  content: '\e908';
 }
 .icon-world:before {
-  content: "\e909";
+  content: '\e909';
 }

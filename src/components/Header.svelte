@@ -35,11 +35,11 @@
 
 <header
   bind:offsetHeight={height}
-  class="sticky top-0 z-50 transition transition-colors duration-150"
+  class="sticky top-0 z-40 transition transition-colors duration-150"
   class:solid>
   <PageSection>
     <div class="flex flex-row h-16 items-center">
-      <div class='flex-1 lg:flex-none'>
+      <div class="flex-1 lg:flex-none">
         <Logo />
       </div>
 
@@ -93,7 +93,9 @@
         <span>{$_('site.locale')}</span>
       </button>
 
-      <button class="flex lg:hidden flex-row items-center ml-4" on:click={onMenu}>
+      <button
+        class="flex lg:hidden flex-row items-center ml-4"
+        on:click={onMenu}>
         <Icon icon="menu" class="text-2xl m-2" />
       </button>
     </div>

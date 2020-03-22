@@ -32,7 +32,7 @@
   alt={$_('images.cat.jpg')} />
 
 <Block
-  id="what_we_sell"
+  id="what-we-sell"
   title={$_('what_we_sell.title')}
   subtitle={$_('what_we_sell.subtitle')}>
   <ul class="flex flex-row flex-wrap justify-center items-center">
@@ -55,11 +55,11 @@
 </Block>
 
 <FeaturesBlock
-  id="our_services"
+  id="our-services"
   title={$_('our_services.title')}
   features={[{ icon: 'dog-food-bowl', title: $_('our_services.pet_supplies.title'), description: $_('our_services.pet_supplies.description') }, { icon: 'delivery-truck', title: $_('our_services.local_delivery.title'), description: $_('our_services.local_delivery.description') }, { icon: 'dog-food-bowl', title: $_('our_services.pet_supplies.title'), description: $_('our_services.pet_supplies.description') }]} />
 
-<Block id="meet_our_family" title={$_('meet_our_family.title')}>
+<Block id="meet-our-family" title={$_('meet_our_family.title')}>
   <div class="flex flex-col md:flex-row text-center md:text-left">
     <div class="flex-1 flex flex-col justify-center">
       <img
